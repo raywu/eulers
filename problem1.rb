@@ -16,7 +16,7 @@ answer = multiples.inject { |result, element| result + element } #inject takes a
 puts "first iteration: #{answer}"
 
 
-#Can anyone refractor the first iteration above and combine the two injects? This second iteration doesn't work. Ruby claims 'result' is a NilClass (on line 17) and cannot take '+' operator
+#Can anyone refactor the first iteration above and combine the two injects? This second iteration doesn't work. Ruby claims 'result' is a NilClass (on line 17) and cannot take '+' operator
 # answerTwo = a.inject(0) { |result, element|
 #   result + element if element % 3 == 0 || element % 5 == 0
 # }
