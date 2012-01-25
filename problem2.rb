@@ -38,3 +38,8 @@ evenFibArray = fibArray.inject([]) { |result, element|
 answer = evenFibArray.inject { |result, element| result + element }
 
 puts "second iteration answer: #{answer}"
+
+# ranksrejoined's answer on 1/18/12 is impressive:
+# fib = [1, 2]
+# fib << fib[-1] + fib[-2] while fib[-1] < 4000000
+# puts fib.reject { |n| n.odd? }.reduce(:+)
