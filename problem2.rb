@@ -20,7 +20,7 @@
 def fib_up_to(max)
   a,b = 1,1
   while a <= max
-    yield a #yield here takes the block on line 23, where each integer 'a' gets inserted into the array
+    yield a #yield here takes the block on line 29, where each integer 'a' gets inserted into the array
     a,b = b,a+b
   end
 end
